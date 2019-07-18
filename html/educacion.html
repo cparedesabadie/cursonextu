@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=dvice-width, user-scalable:no">
-    <title>Curriculum Vitae: Inicio</title>
+    <title>Curriculum Vitae: Educación</title>
   </head>
   <body>
     <svg
@@ -99,24 +99,56 @@
         <h3>Apellidos: Paredes Abadie</h3>
         <h3>Fecha de Nacimiento: 06/11/1989</h3>
         <h3>Lugar de Nacimiento: Montevideo</h3>
-      <h2><i><u><li><a href="html/educacion.html">Educación</a></li></u></i></h2>
-      <h2><i><u><li><a href="html/experiencia.html">Experiencia</a></li></u></i></h2>
-      <h2><i><u>Información Personal</u></i></h2>
-        <img src="image/Fotoperfil.jpeg" alt="Foto" title="Foto" width="130px"/>
-        <p>
-          Soy licenciada en <strong>Dirección de Empresas</strong> y actualmente desempeño el cargo de <strong>Analista Funcional</strong>.<br/>
-          Cuento con 4 años de experiencia en la implementación de sistemas integrados de gestión, y he participado<br/>
-          en proyectos de gran envergadura para numerosos organismos gubernamentales.<br/>
-          Profesional analítica y organizada, habituada a un alto nivel de exigencia y a trabajar por objetivos.
-        </p>
-        <p>
-          Idiomas que comprendo, hablo y escribo:
-        </p>
-        <ul>
-          <li>Español</li>
-          <li>Inglés</li>
-          <li>Portugues</li>
-        </ul>
+      <h2><i><u><li><a href="../index.html">Información Personal</a></li></u></i></h2>
+      <h2><i><u><li><a href="experiencia.html">Experiencia</a></li></u></i></h2>
+      <h2><i><u>Educación</u></i></h2>
+        <table border="1" cellspacing="0" cellpadding="10">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>Universidad Católica - Facultad de Ciencias Empresariales</td>
+            <td>Montevideo</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <form autocomplete="on" name="Agregar Estudios">
+          <legend><h3>Agregar Estudios</h3></legend>
+          <strong><label for="anio">Año</label></strong>
+          <select>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+          </select>
+          <p>
+            <strong><label for="institucion">Institución</label></strong>
+            <input type="text" required>
+          </p>
+          <p>
+            <strong><label for="lugar">Lugar</label></strong>
+            <textarea name="luegar" rows="2" cols="30"></textarea>
+          </p>
+          <input type="submit" value="Enviar">
+        </form>
   </body>
   <footer>
     <p>
